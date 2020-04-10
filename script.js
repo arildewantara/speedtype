@@ -2,10 +2,9 @@ let TIME_LIMIT = 60;
   
 let quotes_array = [ 
 
-	"I got black, I got white, what you want? Hop outside a Ghost and hop up in a Phantom. I know I'm boutta blow-oh-whoa-oh, I ain't dumb.",
-	"They try to take my flow, I take they ass for ransom. I know that I'm gone. I know that I'm gone",
-  "They see me blowing up, now they say they want some. I got two twin Glocks, turn you to a dancer. I see two twin opps, leave 'em on a banner. And I got two thick thots, wanna lick the gang, yeah."
-  
+  "sebagai saya bahwa dia adalah untuk pada dengan mereka menjadi di satu memiliki ini dari oleh kata tapi apa beberapa", "itu atau memiliki melakukan mereka waktu jika akan bagaimana kata masing memberitahu tidak kumpulan iya ingin udara baik juga bermain","menempatkan rumah baca pelabuhan besar mantra tambahkan bahkan tanah harus besar tinggi seperti ikuti", 
+  "tindakan mengapa bertanya perubahan pergi cahaya jenis perlu rumah gambar coba", "kami lagi hewan titik ibu dunia dekat membangun diri bumi ayah apapun baru pekerjaan baginamengambil mendapatkan"
+
 ];
 
 let timer_text = document.querySelector(".curr_time"); 
@@ -30,6 +29,13 @@ let characterTyped = 0;
 let current_quote = ""; 
 let quoteNo = 0; 
 let timer = null;
+
+function showWord(words) {
+  // Generate random array index
+  const randIndex = Math.floor(Math.random() * words.length);
+  // Output random word
+  currentWord.innerHTML = words[randIndex];
+}
 
 function updateQuote() { 
   quote_text.textContent = null; 
