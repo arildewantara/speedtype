@@ -1,0 +1,58 @@
+<html lang="en"> 
+<head>
+  <link rel="icon" type="image/gif" href="https://media.tenor.com/images/7917780c7040336a9824a17fe6253a57/tenor.png"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Practice your typing skill">
+  <meta name="author" content="Aril Dewantara">
+  <title>Speed Typing Game</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Do+Hyeon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+  <link rel="stylesheet" href="style.css"> 
+</head> 
+<body oncopy="return false" oncut="return false" onpaste="return false"> 
+  <div class="container"> 
+    <div class="heading">
+      Speed Typing Game
+    </div>
+    <div class="header"> 
+      <div class="wpm"> 
+        <div class="header_text">WPM</div> 
+        <div class="curr_wpm">100</div> 
+      </div> 
+      <div class="cpm"> 
+        <div class="header_text">CPM</div>
+        <div class="curr_cpm">100</div> 
+      </div> 
+      <div class="errors"> 
+        <div class="header_text">Errors</div> 
+        <div class="curr_errors">0</div> 
+      </div> 
+      <div class="timer"> 
+        <div class="header_text">Time</div> 
+        <div class="curr_time">60s</div> 
+      </div> 
+      <div class="accuracy"> 
+        <div class="header_text">% Accuracy</div> 
+        <div class="curr_accuracy">100</div> 
+      </div> 
+    </div>
+  
+    <div class="quote"> 
+      Click on the area below to start the game. 
+    </div> 
+    <input type="text" class="input_area"
+      placeholder="start typing"
+      oninput="processCurrentText()"
+      onfocus="startGame()"> 
+    </input> 
+    <button class="restart_btn"
+      onclick="resetValues()"> 
+      Restart 
+    </button> 
+  </div>
+  <script src="script.js"> 
+  </script> 
+</body> 
+</html> 
