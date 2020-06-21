@@ -14,11 +14,11 @@ body {
 } 
   
 .heading { 
-  margin-bottom: 20px; 
-  font-size: 3rem; 
-  color: black; 
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: black;
   margin-top: 20px;
-} 
+}
   
 .header { 
   display: flex; 
@@ -28,8 +28,8 @@ body {
 .timer, .errors, .accuracy, 
 .cpm, .wpm { 
   background-color: #ff7066; 
-  height: 65px; 
-  width: 70px; 
+  height: 50px; 
+  width: 50px; 
   margin: 8px; 
   padding: 12px; 
   border-radius: 8px;
@@ -55,7 +55,7 @@ body {
 .curr_time, .curr_errors,
 .curr_accuracy, .curr_cpm, 
 .curr_wpm { 
-  font-size: 2.75rem; 
+  font-size: 2rem; 
 } 
   
 .quote { 
@@ -80,6 +80,8 @@ body {
   padding: 20px; 
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+	border: none;
 } 
   
 .restart_btn { 
