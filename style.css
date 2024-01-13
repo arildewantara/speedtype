@@ -27,7 +27,7 @@ body {
   
 .timer, .errors, .accuracy, 
 .cpm, .wpm { 
-  background-color: #ff7066; 
+  background-color: #FF4C00; 
   height: 50px; 
   width: 50px; 
   margin: 8px; 
