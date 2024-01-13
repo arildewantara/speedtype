@@ -1,7 +1,7 @@
 
 
 body { 
-  background-color: #fc6a6a;
+  background-color: #FF4C00;
   color: black;
   text-align: center;
   font-family: Do Hyeon;
@@ -27,7 +27,7 @@ body {
   
 .timer, .errors, .accuracy, 
 .cpm, .wpm { 
-  background-color: #FF4C00; 
+  background-color: #E03000; 
   height: 50px; 
   width: 50px; 
   margin: 8px; 
